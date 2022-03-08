@@ -78,7 +78,7 @@ def test_rotates_left_when_input_valid():
 
 def test_connects_y_axis_edges():
     rover = Rover()
-    rover.move(['R', 'R', 'F'])
+    rover.move(['B'])
 
     assert rover.x == 0
     assert rover.y == 5
